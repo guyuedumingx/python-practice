@@ -75,3 +75,31 @@ print(alien_0)
 alien_0['color'] = 'yellow'
 print(alien_0['color'])
 
+#删除字典中的键值对
+del alien_0['points']
+print(alien_0)
+
+
+information = {
+        'first_name':'wang',
+        'last_name':'daka',
+        'adress':'guangdong',
+        'age':'20',
+        }
+print(information)
+
+
+#遍历所有的键值对
+for key,value in information.items():
+    print("\nKEY: " + key.title())
+    print("VALUE： " + value.title())
+
+print("\n..................\n")
+#遍历所有的键
+for key in information.keys():
+    print(key)
+
+#遍历所有的值
+for value in information.values():
+    print(value)
+
