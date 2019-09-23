@@ -33,9 +33,16 @@ print('Albert Einstein once said,"A person who never made a mistake never tried 
 
 
 age = 23
-message = "Happy " + str(age) + "rd Birthday!"  #注意字符的格式
+message = "Happy " + str(age)    #注意字符的格式
+message += "rd Birthday!"
 print(message)
 print(5 + 3)
 print(2 * 4)
 print(10 - 2)
 print(int(40 / 5))
+
+#求余数
+print(10 % 3)
+
+#求商的整数部分
+print(10 // 3)

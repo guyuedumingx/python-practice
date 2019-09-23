@@ -1,6 +1,6 @@
 """
 
-学习if语句和字典
+学习if语句和字典和集合
 wang daka
 
 != 不相等
@@ -85,6 +85,7 @@ information = {
         'last_name':'daka',
         'adress':'guangdong',
         'age':'20',
+        'full_name':'wang',
         }
 print(information)
 
@@ -95,11 +96,80 @@ for key,value in information.items():
     print("VALUE： " + value.title())
 
 print("\n..................\n")
+
 #遍历所有的键
 for key in information.keys():
     print(key)
 
+
 #遍历所有的值
-for value in information.values():
+for value in information.values():      #不考虑重复
     print(value)
 
+
+#按顺序遍历所有的键
+for key in sorted(information.keys()):
+    print(key.title())
+
+#集合可除去列表中的重复项
+for name in set(information.values()):
+    print(name.title())
+
+#嵌套（将一系列字典储存在列表中或将列表作为值存储在字典中）
+"""
+alien_1 = {'color':'green','points':5}
+alien_2 = {'color':'green','points':10}
+alien_3 = {'color':'green','points':15}
+
+aliens = [alien_1,alien_2,alien_3]             #将字典存储在列表中
+
+for alien in aliens:
+    print(alien)
+"""
+
+aliens = []
+
+#创建30个外星人
+for alien_number in range(30):              
+    new_alien = {'color':'green','points':5,'speed':'slow'}
+    aliens.append(new_alien)
+
+for alien in aliens[:5]:
+    print(alien)
+print('\n................')
+
+
+#在字典中储存列表
+pizza = {
+    'crust':'thick',
+    'toppings': ['mushrooms','extra cheese'],
+}
+print("You ordered a " + pizza['crust'] + " -crust pizza" + 
+        " with the following toppings:")
+for topping in pizza['toppings']:
+    print("\t" + topping)
+
+
+#在字典中存储字典
+users = {
+    'wang':{
+        'first':'albert',
+        'last':'harden',
+        'age':'25',
+    },
+    'mcurie':{
+        'first':'fasfv',
+        'last':'asfvv',
+        'age':'55',
+    }
+}
+for username,user_info in users.items():
+    print("\nUsername: " + username)
+    full_name = user_info['first'] + ' ' + user_info['last']   #引用方法
+    age = user_info['age']
+
+    print("\tFull name: " + full_name.title())
+    print("\tage: " + age.title()) 
+
+
+#practise

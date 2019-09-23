@@ -18,6 +18,10 @@ print(names)
 names.append('friends')              #在列表的最后添加元素
 print(names)
 
+i = 5
+names = [i] + names
+print(names)
+
 names.insert(1,'docadi')             #在列表第二位插入元素
 print(names)
 #删除元素
