@@ -12,6 +12,7 @@ class Dog():
         self.name = name              #以self为前缀的变量可以供类中所有方法使用
         self.age = age                #可以被实例引用 例：28行
         self.dog_type = 'tianyuanquan' #设置默认值
+        self.eat = Eat()               #自动创建Eat类
 
     def sit(self):
         """模拟小狗坐下"""
@@ -24,6 +25,9 @@ class Dog():
     def change_type(self,type):
         self.dog_type = type
 
+class Eat():
+    def __init__(self):
+        print("I am eating!")
 
 #根据类创建实例
 my_dog = Dog('erha',2)
@@ -57,8 +61,26 @@ print(my_dog.dog_type)
 class KittyDog(Dog):
     def __init__(self,name,age):
         """初始化父类的属性"""
-        super().__init__(name,age)
+        super().__init__(name,age)   #不用跟self
+        self.kite = 0                #子类的特殊属性
+
+    def sit(self):
+        print("I'm sitting now!")
+
+"""
+重写父类的方法
+父类的方法不使用于子类则可以选择重写
+此时程序忽略父类该方法
+""" 
 
 
 your_dog = KittyDog('haha',1)
 print(your_dog.name)
+your_dog.sit()
+
+
+#导入类
+
+
+
+
