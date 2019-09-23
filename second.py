@@ -32,6 +32,11 @@ print(names)
 names.remove('cats')                 #根据值删除元素
 print(names)
 
+"""
+while 'cats' in names:
+    names.remove('cats')
+"""
+
 #删除又使用该元素
 unfriend_name = 'cows'
 names.remove(unfriend_name)

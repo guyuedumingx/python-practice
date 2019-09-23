@@ -30,3 +30,25 @@ while True :
     else:
         print("I'm love to go to " + city.title() + "!\n")
 
+
+#continue的用法
+current_number = 0 
+while current_number < 10:
+    current_number += 1
+    if current_number % 2 == 0:
+        continue                          #返回循环头
+
+    print(current_number)
+
+
+"""
+while 'cats' in names:
+    names.remove('cats')
+"""
+
+
+responses = {}
+name = input()
+responses[name] = response               #name不用加引号
+
+
