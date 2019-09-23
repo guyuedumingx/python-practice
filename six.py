@@ -74,3 +74,74 @@ greet(users_name)
 
 
 
+
+#在函数中修改列表
+#永久修改
+
+greet_name = []
+
+def greeting(names):
+    while users_name:
+        greet = (names.pop())
+        print("Hello " + greet)
+        greet_name.append(greet)
+
+greeting(users_name)
+print(len(users_name))
+
+#禁止函数修改列表
+def hello(names1):        
+    while names1:
+        names1.pop()
+
+        
+users_name2 = ['wng','svasva','asrha','argggf']
+
+hello(users_name2[:])          #把副本传递给函数
+
+#传递任意数量的实参
+def pizza(*toppings):       #建立一个空元组存放实参
+    print(toppings)
+
+pizza('peperoni')
+pizza('mushrooms','green peppers','extra cheese')
+
+
+"""
+如果要让函数接受不同类型的形参，
+必须在函数定义中将接纳任意数量的形参放在最后
+"""
+
+#使用任意数量的关键字实参
+
+def build_profile(first,last,**user_info):
+    """创造一个字典，包含我们知道的用户的一切"""
+    profile = {}
+    profile['first_name'] = first
+    profile['last_name'] = last
+    for key, value in user_info.items():
+        profile[key] = value
+    return profile
+
+prompt = build_profile('wang','daka',age = '25',location = 'zhanjiang')
+#键无需引号
+print(prompt)
+
+
+#导入模块
+import pizza_module as pm       #用as指定别名
+  
+pm.make_pizza(16,'haha','egaeg','qethb','qqqevq')
+
+
+
+#导入特定函数
+"""
+from module_name import function_name_1, fuction_name_2
+from module_name import *  导入模块中的所有函数
+"""
+from pizza_module import make_pizza_1
+
+make_pizza_1(11,'sdb','agaega','aggeq')           #无需使用句点表示
+
+
