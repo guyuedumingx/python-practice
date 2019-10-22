@@ -1,5 +1,6 @@
 from random import randint
 
+
 #导入文件
 with open('u2.txt') as obj:
     words = obj.readlines()
@@ -31,20 +32,20 @@ while i < len(words):
     else:
         i = i + 1
         
-        
-#实现随机取词        
-def ran():
-	word_name = []
-	for key in key_word.keys():
-		word_name.append(key)
-	while True:
-		get = randint(0,len(word_name)-1)
-		print(get)
-		print(word_name[get])
-		inp = input()
-	    if inp == 'e':
-	    	print(key_word[word_name(get)])
-	    if inp == 'q':
-	    	break
-ran()
-		
+#实现随机取词  
+      
+word_name = []
+for key in key_word.keys():
+	word_name.append(key)
+
+while True:
+    inp = input()
+    if inp == 'e':
+        get = randint(0,len(word_name)-1)
+        print(word_name[get])
+    if inp == 'q':
+        for value in key_word[word_name[get]]:
+            print(value)
+    
+    
+    
