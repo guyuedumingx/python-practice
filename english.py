@@ -1,7 +1,11 @@
+from random import randint
 
+#导入文件
 with open('u2.txt') as obj:
     words = obj.readlines()
 
+#实现单词分割
+#并把单词与注释保存在key_word
 i = 0
 key_word = {}
 
@@ -12,13 +16,13 @@ while i < len(words):
         else:
             break
         answer = []
-        name = words[i]
+        name = words[i].strip()
         if i < len(words) - 2:
             i = i + 1
         else:
             break
         while words[i] != '\n':
-            answer.append(words[i])
+            answer.append(words[i].strip())
             if i < len(words) - 2:
                 i = i + 1
             else:
@@ -26,4 +30,21 @@ while i < len(words):
         key_word[name] = answer
     else:
         i = i + 1
-print(key_word)
+        
+        
+#实现随机取词        
+def ran():
+	word_name = []
+	for key in key_word.keys():
+		word_name.append(key)
+	while True:
+		get = randint(0,len(word_name)-1)
+		print(get)
+		print(word_name[get])
+		inp = input()
+	    if inp == 'e':
+	    	print(key_word[word_name(get)])
+	    if inp == 'q':
+	    	break
+ran()
+		
