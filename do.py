@@ -13,14 +13,14 @@ while i < len(word):
 		g = i + 1
 		if word[g] != '111':
 			name = word[g]
-			g += g
+			g = g + 1
 			while word[g] != '111':
 				answer.append(word[g]) 
 				print(answer)
 				if g < len(word) - 2:
 					g = g + 1
 			allc[name] = answer
-	i += i
+	i = i + 1
 print(allc)
-		
+
 		
