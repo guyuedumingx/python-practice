@@ -4,7 +4,6 @@ wang daka
 
 约定：大写字母名称指类
 """
-
 class Dog():
     """模拟一只小狗"""
     def __init__(self,name,age):      #形参self必须在其他形参前面且必不可少
