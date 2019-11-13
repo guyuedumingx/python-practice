@@ -1,0 +1,31 @@
+/*第二次作业*/
+
+#include "stdafx.h"
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	char sex, sports, diet;
+	double faHeight, moHeight,height = 0;
+	double add = 0;
+	printf("是公是母： ");
+	scanf_s("%c",&sex,1);
+	printf("营养快线喝不喝： ");
+	scanf_s("%*c%c",&diet,1);
+	printf("锻炼不锻炼： ");
+	scanf_s("%*c%c",&sports,1);
+	printf("父上身高几何：");
+	scanf_s("%lf",&faHeight);
+	printf("母上身高几何：");
+	scanf_s("%lf",&moHeight);
+	if (sports == 'Y') add = 0.02;
+	if (diet == 'Y') add = add + 0.015;
+	if (sex == 'F')
+		height = (faHeight * 0.923 + moHeight)/2;
+	else if(sex == 'M')
+		height = (faHeight + moHeight)/2 * 1.08;
+
+	height = height * add + height;
+	printf("你可能长到：%lf\n",height);
+	return 0;
+}
