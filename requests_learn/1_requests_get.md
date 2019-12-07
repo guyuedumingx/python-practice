@@ -167,7 +167,7 @@ requests.get (url, params=None, **kwargs)
 
 ### 实例 
 
-** 爬取京东 **  
+**爬取京东**  
 ```python
 >>> import requests
 >>> r = requests.get("https://item.jd.com/2967929.html")
@@ -178,7 +178,7 @@ requests.get (url, params=None, **kwargs)
 >>> r.text[:1000]
 
 ```
-** 爬取亚马逊 **
+**爬取亚马逊**
 
 ```python
 >>> r = requests.get("https://www.amazon.cn/gp/product/B01M8L5Z3Y")
@@ -199,7 +199,7 @@ requests.get (url, params=None, **kwargs)
 {'User-agent': 'Mozilla/5.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
 
 ```
-** 百度360搜索关键词提交 ** 
+**百度360搜索关键词提交** 
 > 百度的关键词接口：  
 > http://www.baidu.com/s?wd=keyword  
 > 360的关键词接口：  
@@ -228,7 +228,7 @@ requests.get (url, params=None, **kwargs)
 
 ```
 
-** 网络图片的爬取 **  
+**网络图片的爬取**  
 
 ```python
 import requests
@@ -252,7 +252,7 @@ except:
 ```
 以上代码保存在*download_picture.py*中
 
-** 实例5：IP地址归属地的自动查询 **  
+**实例5：IP地址归属地的自动查询**  
 ```python 
 >>> import requests
 >>> url = "http://www.ip138.com/iplookup.asp?ip="
@@ -274,7 +274,7 @@ except:
 
 ```
 
-** BeautifulSoup库的理解 **  
+**BeautifulSoup库的理解**  
 
 
 
