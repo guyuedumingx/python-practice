@@ -5,7 +5,7 @@
 > params: url中的额外参数，字典或字节流格式，可选  
 > **kwargs: 12个控制访问的参数  
 
-```
+```python
 import requests
 url = "http://www.baidu.com"
 r = requests.get(url)
@@ -20,7 +20,7 @@ print(r.status_code)
 
 如果文件显示不正确，可以：  
 
-```
+```python
 r.encoding = r.apparent_encoding
 ```
 
@@ -168,7 +168,7 @@ requests.get (url, params=None, **kwargs)
 ### 实例 
 
 爬取京东  
-```
+```python
 >>> import requests
 >>> r = requests.get("https://item.jd.com/2967929.html")
 >>> r.status_code
@@ -176,12 +176,11 @@ requests.get (url, params=None, **kwargs)
 >>>r.encoding
 'gbk'
 >>> r.text[:1000]
-'<!DOCTYPE HTML>\n<html lang="zh-CN">\n<head>\n    <!-- shouji -->\n    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />\n    <title>【华为荣耀8】荣耀8 4GB+64GB 全网通4G手机 魅海蓝【行情 报价 价格 评测】-京东</title>\n    <meta name="keywords" content="HUAWEI荣耀8,华为荣耀8,华为荣耀8报价,HUAWEI荣耀8报价"/>\n    <meta name="description" content="【华为荣耀8】京东JD.COM提供华为荣耀8正品行货，并包括HUAWEI荣耀8网购指南，以及华为荣耀8图片、荣耀8参数、荣耀8评论、荣耀8心得、荣耀8技巧等信息，网购华为荣耀8上京东,放心又轻松" />\n    <meta name="format-detection" content="telephone=no">\n    <meta http-equiv="mobile-agent" content="format=xhtml; url=//item.m.jd.com/product/2967929.html">\n    <meta http-equiv="mobile-agent" content="format=html5; url=//item.m.jd.com/product/2967929.html">\n    <meta http-equiv="X-UA-Compatible" content="IE=Edge">\n    <link rel="canonical" href="//item.jd.com/2967929.html"/>\n        <link rel="dns-prefetch" href="//misc.360buyimg.com"/>\n    <link rel="dns-prefetch" href="//static.360buyimg.com"/>\n    <link rel="dns-prefetch" href="//img10.360buyimg.com"/>\n    <link rel="dns'
 
 ```
 爬取亚马逊
 
-```
+```python
 >>> r = requests.get("https://www.amazon.cn/gp/product/B01M8L5Z3Y")
 >>> r.status_code
 503
@@ -206,7 +205,7 @@ requests.get (url, params=None, **kwargs)
 > 360的关键词接口：  
 > http://www.so.com/s?q=keyword  
 
-```
+```python
 
 >>> import requests
 
@@ -231,7 +230,7 @@ requests.get (url, params=None, **kwargs)
 
 网络图片的爬取  
 
-```
+```python
 import requests
 import os
 url = "https://img.ivsky.com/img/bizhi/pre/201909/25/haitun-004.jpg"
@@ -265,7 +264,7 @@ except:
 ---------
 
 ### Learn BeautifulSoup  
-```
+```python
 >>> import requests
 >>> from bs4 import BeautifulSoup
 >>> r = requests.get("https://python123.io/ws/demo.html")  
