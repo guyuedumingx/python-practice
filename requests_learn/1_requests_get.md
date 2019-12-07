@@ -1,5 +1,5 @@
-##Requests   
-####requests.get (url, params=None, **kwargs)
+## Requests   
+#### requests.get (url, params=None, **kwargs)
 
 > url: 拟获取页面的url链接  
 > params: url中的额外参数，字典或字节流格式，可选  
@@ -167,7 +167,7 @@ requests.get (url, params=None, **kwargs)
 
 ### 实例 
 
-爬取京东  
+** 爬取京东 **  
 ```python
 >>> import requests
 >>> r = requests.get("https://item.jd.com/2967929.html")
@@ -178,7 +178,7 @@ requests.get (url, params=None, **kwargs)
 >>> r.text[:1000]
 
 ```
-爬取亚马逊
+** 爬取亚马逊 **
 
 ```python
 >>> r = requests.get("https://www.amazon.cn/gp/product/B01M8L5Z3Y")
@@ -190,7 +190,7 @@ requests.get (url, params=None, **kwargs)
 >>> r.request.headers
 {'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
 
-#模拟浏览器Mozilla/5.0登录
+# 模拟浏览器Mozilla/5.0登录
 >>> kv = {'User-agent':'Mozilla/5.0'}
 >>> r = requests.get(url, headers = kv)
 >>> r.status_code
@@ -199,7 +199,7 @@ requests.get (url, params=None, **kwargs)
 {'User-agent': 'Mozilla/5.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
 
 ```
-百度360搜索关键词提交  
+** 百度360搜索关键词提交 ** 
 > 百度的关键词接口：  
 > http://www.baidu.com/s?wd=keyword  
 > 360的关键词接口：  
@@ -228,13 +228,13 @@ requests.get (url, params=None, **kwargs)
 
 ```
 
-网络图片的爬取  
+** 网络图片的爬取 **  
 
 ```python
 import requests
 import os
 url = "https://img.ivsky.com/img/bizhi/pre/201909/25/haitun-004.jpg"
-root = "home/Desktop/"
+root = "/home/harden/python-practice/requests_learn/"
 path = root + url.split('/')[-1]
 try:
 	if not os.path.exists(root):
@@ -252,7 +252,7 @@ except:
 ```
 以上代码保存在*download_picture.py*中
 
-实例5：IP地址归属地的自动查询  
+** 实例5：IP地址归属地的自动查询 **  
 ```python 
 >>> import requests
 >>> url = "http://www.ip138.com/iplookup.asp?ip="
@@ -274,7 +274,7 @@ except:
 
 ```
 
-BeautifulSoup库的理解  
+** BeautifulSoup库的理解 **  
 
 
 
