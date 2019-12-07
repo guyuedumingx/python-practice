@@ -276,15 +276,142 @@ except:
 
 **BeautifulSoup库的理解**  
 
+```python
+>>> from bs4 import BeautifulSoup
+>>> soup = BeautifulSoup("<html>data</html>", "html.parser")
+>>> soup2 = BeautifulSoup(open("/home/Harden/python_practice/markdown/u.html"), "html.parser")
+```
 
+|解析器|使用方法|条件|
+|-----|-----|----|
+|bs4的HTML解析器|BeautifulSoup(mk,'html.parser')|安装bs4库|
+|lxml的HTML解析器|BeautifulSoup(mk,'lxml')|pip install lxml|
+|lxml的XML解析器|BeautifulSoup（mk,'xml')|pip install lxml|
+|html5lib的解析器|BeautifulSoup(mk,'html5lib')|pip install html5lib|
 
+**BeautifulSoup类的基本元素**  
 
+|基本元素|说明|
+|----|----|
+|Tag|标签，最基本的信息组织单元，分别用< >和</>表明开头和结尾|
+|Name|标签的名字，< p >...< /p>的名字是'p',格式: < tag>.name|
+|Attributes|标签的属性，字典形式组织，格式: < tag>.attrs|
+|NavigableString|标签内非属性字符串，<>...< />中字符串，格式: < tag>.string|
+|Comment|标签内字符串的注释部分，一种特殊的Comment类型|
 
+```python
+>>> import requests
+>>> from bs4 import BeautifulSoup
+>>> r = requests.get("https://python123.io/ws/demo.html")  
+>>> demo = r.text
+>>> soup = BeautifulSoup(demo, "html.parser")
+>>> tag = soup.a  #返回第一个a标签
+>>> tag
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a>
+>>> tag.attrs
+{'href': 'http://www.icourse163.org/course/BIT-268001', 'class': ['py1'], 'id': 'link1'}
+>>> tag.attrs['class']
+['py1']
+>>> tag.attrs['href']
+'http://www.icourse163.org/course/BIT-268001'
+>>> type(tag.attrs)
+<class 'dict'>
+>>> type(tag)
+<class 'bs4.element.Tag'>
 
+>>> soup.a.name
+'a'
+>>> soup.a.parent.name
+'p'
+>>> soup.p.parent.name
+'body'
+>>> soup.a
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a>
+>>> soup.a.string
+'Basic Python'
+>>> soup.p
+<p class="title"><b>The demo python introduces several python courses.</b></p>
+>>> soup.p.string
+'The demo python introduces several python courses.'
+>>> type(soup.p.string)
+<class 'bs4.element.NavigableString'>
 
+>>> newsoup = BeautifulSoup("<b><!--This is a comment--></b><p>This is not a comment</p>", "html.parser")
+>>> newsoup.b.string
+'This is a comment'
+>>> type(newsoup.b.string)
+<class 'bs4.element.Comment'>
+>>> newsoup.p.string
+'This is not a comment'
+>>> type(newsoup.p.string)
+<class 'bs4.element.NavigableString'>
+```
+**标签树的下行遍历**  
 
+|属性|说明|
+|---|---|
+|.contents|子节点的列表，将< tag>所有的儿子节点存入列表|
+|.children|子节点的迭代类型，与.contents类似，用于循环遍历儿子节点|
+|.descendants|子孙节点的迭代类型，包含所有子孙节点，用于遍历列表|
+> .contents和.children只获得当前节点的子节点信息，而.descendants获得所有的子孙节点
 
+```
+>>> soup.head
+<head><title>This is a python demo page</title></head>
+>>> soup.head.contents
+[<title>This is a python demo page</title>]
+>>> soup.body.contents
+['\n', <p class="title"><b>The demo python introduces several python courses.</b></p>, '\n', <p class="course">Python is a wonderful general-purpose programming language. You can learn Python from novice to professional by tracking the following courses:
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a> and <a class="py2" href="http://www.icourse163.org/course/BIT-1001870001" id="link2">Advanced Python</a>.</p>, '\n']
+>>> len(soup.body.contents)
+5
 
+```
+**标签数的上行遍历**  
+
+|属性|说明|
+|---|---|
+|.parent|节点的父亲标签|
+|.parents|节点的父辈标签的迭代类型，用于循环便利父辈节点|
+```python
+>>> import requests
+>>> from bs4 import BeautifulSoup
+>>> r = requests.get("https://python123.io/ws/demo.html")  
+>>> demo = r.text
+>>> soup = BeautifulSoup(demo, "html.parser")
+
+>>> soup.title.parent
+<head><title>This is a python demo page</title></head>
+>>> soup.html.parent
+<html><head><title>This is a python demo page</title></head>
+<body>
+<p class="title"><b>The demo python introduces several python courses.</b></p>
+<p class="course">Python is a wonderful general-purpose programming language. You can learn Python from novice to professional by tracking the following courses:
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a> and <a class="py2" href="http://www.icourse163.org/course/BIT-1001870001" id="link2">Advanced Python</a>.</p>
+</body></html>
+>>> soup.parent # 说明soup的父亲是空的
+>>>
+
+```
+
+```python
+>>> soup = BeautifulSoup(demo,"html.parser")
+>>> for parent in sou.a.parents:
+		if parent is None:
+			print(parent)
+		else:
+			print(parent.name)
+
+```
+
+**标签树的平行遍历**  
+
+|属性|说明|
+|---|---|
+|.next_sibling|返回按照HTTP文本顺序的下一个平行节点标签|
+|.previous_sibling|返回按照HTML文本顺序的上一个平行节点标签|
+|.next_siblings|迭代类型，返回按照HTML文本顺序的后续所有平行节点标签|
+|.previous_siblings|迭代类型，返回按照HTML文本顺序的前续所有平行节点标签|
 
 
 
