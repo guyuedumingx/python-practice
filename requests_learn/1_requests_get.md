@@ -353,7 +353,8 @@ except:
 |.contents|子节点的列表，将< tag>所有的儿子节点存入列表|
 |.children|子节点的迭代类型，与.contents类似，用于循环遍历儿子节点|
 |.descendants|子孙节点的迭代类型，包含所有子孙节点，用于遍历列表|
-> .contents和.children只获得当前节点的子节点信息，而.descendants获得所有的子孙节点
+> .contents和.children只获得当前节点的子节点信息，而.descendants获得所有的子孙节点  
+> 迭代类型用在for in 中  
 
 ```
 >>> soup.head
@@ -405,6 +406,7 @@ except:
 ```
 
 **标签树的平行遍历**  
+平行遍历发生在同一个父节点下的各节点间  
 
 |属性|说明|
 |---|---|
@@ -413,8 +415,65 @@ except:
 |.next_siblings|迭代类型，返回按照HTML文本顺序的后续所有平行节点标签|
 |.previous_siblings|迭代类型，返回按照HTML文本顺序的前续所有平行节点标签|
 
+迭代类型只能用在for / in 类型中  
 
+```python
+>>> import requests
+>>> from bs4 import BeautifulSoup
+>>> r = requests.get("https://python123.io/ws/demo.html")  
+>>> demo = r.text
+>>> soup = BeautifulSoup(demo, "html.parser")
+>>> soup.a.next_sibling
+' and '
+>>> soup.a.next_sibling.next_sibling
+<a class="py2" href="http://www.icourse163.org/course/BIT-1001870001" id="link2">Advanced Python</a>
+>>> soup.a.previous_sibling
+'Python is a wonderful general-purpose programming language. You can learn Python from novice to professional by tracking the following courses:\r\n'
+>>> soup.a.previous_sibling.previous_sibling
+>>> soup.a.parent
+<p class="course">Python is a wonderful general-purpose programming language. You can learn Python from novice to professional by tracking the following courses:
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a> and <a class="py2" href="http://www.icourse163.org/course/BIT-1001870001" id="link2">Advanced Python</a>.</p>
+```
+#### bs4的prettify()方法  
+```python
+>>> import requests
+>>>
+>>> from bs4 import BeautifulSoup
+>>> r = requests.get("https://python123.io/ws/demo.html")
+>>> demo = r.text
+>>> soup = BeautifulSoup(demo, "html.parser")
+>>> soup.prettify()
+>>> print(soup.a.prettify())
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">
+ Basic Python
+</a>
+```
+#### JSON
+```JSON
+"key" : "value"
+"key" : ["value1","value2"]
+"key" : {"subkey" : "subvalue"
+		"subkey2" : "subvalues2"}
+```
+#### YAML  
+用 缩进 来表达所属信息  
+用 - 来表达并列关系  
+用 | 表示整块数据    
+```YAML
+name : 
+	newName : 你好  
+	oldName : Hello  
+key : 
+	subkey : subvalue
+good : 			#表达并列关系  
+-北京理工大学  
+-延安自然科学院  
 
+# |表示整块数据
+text: |		#学校介绍
+北京理工大学创立于～～～
+
+```
 
 
 
