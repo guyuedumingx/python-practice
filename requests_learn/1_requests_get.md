@@ -529,7 +529,8 @@ http://www.icourse163.org/course/BIT-1001870001
 |<>.find_previous_sibling()|在前序平行节点中返回一个结果，字符串类型，同.find()参数|
 
 
-
+### 实例  
+#### 中国大学定向排名  
 
 
 
