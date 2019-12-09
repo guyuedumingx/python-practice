@@ -300,10 +300,6 @@ except:
 |Comment|标签内字符串的注释部分，一种特殊的Comment类型|
 
 ```python
->>> import requests
->>> from bs4 import BeautifulSoup
->>> r = requests.get("https://python123.io/ws/demo.html")  
->>> demo = r.text
 >>> soup = BeautifulSoup(demo, "html.parser")
 >>> tag = soup.a  #返回第一个a标签
 >>> tag
@@ -375,10 +371,6 @@ except:
 |.parent|节点的父亲标签|
 |.parents|节点的父辈标签的迭代类型，用于循环便利父辈节点|
 ```python
->>> import requests
->>> from bs4 import BeautifulSoup
->>> r = requests.get("https://python123.io/ws/demo.html")  
->>> demo = r.text
 >>> soup = BeautifulSoup(demo, "html.parser")
 
 >>> soup.title.parent
@@ -418,10 +410,6 @@ except:
 迭代类型只能用在for / in 类型中  
 
 ```python
->>> import requests
->>> from bs4 import BeautifulSoup
->>> r = requests.get("https://python123.io/ws/demo.html")  
->>> demo = r.text
 >>> soup = BeautifulSoup(demo, "html.parser")
 >>> soup.a.next_sibling
 ' and '
@@ -436,11 +424,6 @@ except:
 ```
 #### bs4的prettify()方法  
 ```python
->>> import requests
->>>
->>> from bs4 import BeautifulSoup
->>> r = requests.get("https://python123.io/ws/demo.html")
->>> demo = r.text
 >>> soup = BeautifulSoup(demo, "html.parser")
 >>> soup.prettify()
 >>> print(soup.a.prettify())
@@ -477,6 +460,73 @@ text: |		#学校介绍
 
 
 
+#### <>.find_all(name,attrs,recursrve,string,**kwargs)
+返回一个列表，储存查找的结果   
+name: 对标签名称的检索字符串  
+attrs: 对标签属性值的检索字符串，可标注属性检索  
+recursive: 是否对子孙全部检索，默认为True,如果为False，则只对儿子节点检索  
+string: <>...</>中字符串区域的检索字符串  
+
+
+```python 
+# 查找a标签  
+soup.find_all('a')
+
+# 查找a和b标签  
+# 把a和b作为第一个参数，用列表形式传输  
+soup.find_all(['a','b'])
+
+# 若参数为True则给出所有标签的信息
+for tag in soup.find_all(True):
+	print (tag.name)
+
+#只显示以b开头的标签  
+import re		#正则表达式库
+for tag in soup.find_all(re.compile('b')):
+	print (tag.name)
+
+# 检索带有course属性值的标签  
+soup.find_all('p','course')
+[<p class="course">Python is a wonderful general-purpose programming language. You can learn Python from novice to professional by tracking the following courses:
+<a class="py1" href="http://www.icourse163.org/course/BIT-268001" id="link1">Basic Python</a> and <a class="py2" href="http://www.icourse163.org/course/BIT-1001870001" id="link2">Advanced Python</a>.</p>]
+
+# 查找id值为link1的标签
+soup.find_all(id='link1')
+
+# 查找以link开头的标签 
+import re
+soup.find_all(id=re.compile('link'))
+
+# string  
+soup.find_all(string = "Basic Python")
+['Basic Python']
+
+# 检索带有python的字符串  
+import re
+soup.find_all(string = re.compile("python"))
+['This is a python demo page', 'The demo python introduces several python courses.']
+
+>>> for link in soup.find_all('a'):
+...     print(link.get('href'))
+http://www.icourse163.org/course/BIT-268001
+http://www.icourse163.org/course/BIT-1001870001
+>>>
+
+```
+
+
+> < tag>(..)等价于 < tag>.find_all(..)   
+> soup.(..)等价于 soup.find_all(..)   
+
+|方法|说明|  
+|----|----|  
+|<>.find()|搜索且只返回一个结果，字符串类型，同.find_all()参数|
+|<>.find_parents()|在父辈节点中搜索，返回列表类型，同.find_all()参数|
+|<>.find_parent()|在父辈节点中返回一个结果，字符串类型，同.find()参数|
+|<>.find_next_siblings()|在后续平行节点中搜索，返回列表类型，同.find_all()参数|
+|<>.find_next_sibling()|在后续平行节点中返回一个结果，字符串类型，同.find()参数|
+|<>.find_previous_siblings()|在前序平行节点中搜索，返回列表类型，同.find_all()参数|
+|<>.find_previous_sibling()|在前序平行节点中返回一个结果，字符串类型，同.find()参数|
 
 
 
