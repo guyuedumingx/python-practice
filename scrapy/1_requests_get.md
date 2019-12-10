@@ -263,7 +263,7 @@ except:
 ```
 ---------
 
-### Learn BeautifulSoup  
+## BeautifulSoup  
 ```python
 >>> import requests
 >>> from bs4 import BeautifulSoup
@@ -531,13 +531,31 @@ http://www.icourse163.org/course/BIT-1001870001
 
 ### 实例  
 #### 中国大学定向排名  
+- 保存在*universityRaw.py*中  
 
 
+## 正则表达式 RE   
 
+> 通用的字符串表达框架  
+> 简洁表达一组字符串的表达式  
+> 针对字符串表达“简介”和“特征”思想的工具  
 
+1. 表达文本特征  
+2. 同时查找或替换一组字符串  
+3. 匹配字符串的全部或部分   
 
+*正则表达式需要编译*   
 
-
+|操作符|说明|实例|
+|-----|-----|----|
+|.|表示单个字符||
+|[]|字符集，对单个字符给出取值范围|[abc]表示a、b、c,[a-z]表示a到z单个字符|
+|[^]|非字符集，对单个字符给出排除范围|[^abc]表示非a或b或c的单个字符|
+|*|前一个字符0次或无线次拓展|abc*表示ab、abc、abcc、abccc等|
+|+|前一个字符表示一次或无线次拓展|abc+表示abc、abcc、abccc等|
+|?|前一个字符0次或1次拓展|abc?表示ab、abc|
+|xx&#124;xx|左右表达式任意一个|abc&#124;def表示abc、def|
+ 
 
 
 
