@@ -555,6 +555,24 @@ http://www.icourse163.org/course/BIT-1001870001
 |+|前一个字符表示一次或无线次拓展|abc+表示abc、abcc、abccc等|
 |?|前一个字符0次或1次拓展|abc?表示ab、abc|
 |xx&#124;xx|左右表达式任意一个|abc&#124;def表示abc、def|
+|{m}|扩展一个字符m次|ab{2}c表示abbc|
+|{m,n}|扩展前一个字符m至n次(含n)|ab{1,2}c表示abc、abbc|
+|^|匹配字符串开头|^abc表示abc且在一个字符串的开头|
+|$|匹配字符串结尾|abc$表示abc且在一个字符串的结尾|
+|()|分组标记，内部只能使用&#124;操作符|(abc)表示abc,(abc&#124;def)表示abc、def|
+|\d|数字，等价于[0-9]||
+|\w|单词字符，等价于[A-Za-z0-9_]||
+
+|正则表达式|对应字符串|
+|----------|----------|
+|PP(Y&#124;YT&#124;YTH&#124;YTHO)?N|'PPN'、'PPYN'、'PPYTN'、'PPYTHN'、'PPYTHON'|
+|PYTHON+|'PYTHON'、'PYTHONN'、'PYTHONNN'、……|
+|PY[TH]ON|'PYTON'、'PYHON'|
+|PY[^TH]?ON|'PYON'、'PYaON'、'PYbON'、'PYcON'、……|
+|PY{:3}N|'PN'、'PYN'、'PYYN'、'PYYYN'|
+
+
+
  
 当正则表达式中出现转义符\时使用raw string(原生字符串)类型  
 
@@ -638,7 +656,7 @@ http://www.icourse163.org/course/BIT-1001870001
 - repl: 替换匹配字符串  
 - count: 匹配的最大替换次数  
 
-```pytohn
+```python
 >>> re.sub(r'[1-9]\d{5}',':zipcode', 'BIT100081 TSU100084')
 'BIT:zipcode TSU:zipcode'
 ```
