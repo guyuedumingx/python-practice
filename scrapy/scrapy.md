@@ -407,7 +407,7 @@ except:
 |.next_siblings|迭代类型，返回按照HTML文本顺序的后续所有平行节点标签|
 |.previous_siblings|迭代类型，返回按照HTML文本顺序的前续所有平行节点标签|
 
-迭代类型只能用在for / in 类型中  
+迭代类型只能用在*for / in* 类型中  
 
 ```python
 >>> soup = BeautifulSoup(demo, "html.parser")
@@ -662,7 +662,7 @@ http://www.icourse163.org/course/BIT-1001870001
 ```python
 >>> for m in re.finditer(r'[1-9]\d{5}', 'BIT100081 TSU100084'):
 		if m:
-			print(m.group(0))
+			print(m.group(0))  
 100081
 100084
 ```
