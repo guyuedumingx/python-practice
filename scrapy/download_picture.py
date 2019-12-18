@@ -1,7 +1,7 @@
 import requests
 import os
-url = "https://www.wahaotu.com/uploads/allimg/201906/1559891251250879.jpg"
 root = "/home/harden/python-practice/requests_learn/"
+url = "https://m3u8.40cdn.com/videos/ajvs/1910/5tTduh7g/hls/5tTduh7g.m3u8"
 path = root + url.split('/')[-1]
 try:
 	if not os.path.exists(root):
