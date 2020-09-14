@@ -1,0 +1,279 @@
+Script started on 2020-09-14 21:35:09+08:00 [TERM="st-256color" TTY="/dev/pts/0" COLUMNS="136" LINES="35"]
+[1m[7m%[27m[1m[0m                                                                                                                                        ]0;..thon-practice[0m[27m[24m[J[01;32m➜  [36mpython-practice[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hrra[?1l>[?2004l
+]0;ra)0[?1049h[1;35r[0m[4l[?1h=[?25l[39;49m[?1000h[39;49m[0m[H[2J
+[J[Aloading...[Kkranger\[?1h=[?1000hkranger\(B[0;1m[32mharden@ww [34m/home/harden/python/python-practice/[39;49m100days[K
+[91m [94mInfoSpider     [39;49m[0m (B[0;1;7m[94m 100days                                        5 [39;49m[0m ...
+(B[0;1m[91m [94mmanim          [39;49m[0m (B[0;1m[91m [94mchaci[42X[3;66H7 
+[91m [94mpylearn        [39;49m[0m (B[0;1m[91m [94mpractice[38X[4;65H30 
+[91m [94mpython-jvm-int~[39;49m[0m (B[0;1m[91m [94mscrapy[41X[5;66H8 
+(B[0;1;7m[94m python-practice[39;49m[0m (B[0;1m[91m (B[0mfind.py[6;61H2.17 K
+(B[0;1m[91m [94mWord           [39;49m[0m (B[0;1m[91m (B[0mREADME.md[7;63H64 B
+(B[0;1m[91m (B[0mnihe.py[8;18H(B[0;1m[91m (B[0mtypescript[8;66H0[35dWarning: You're in a nested ranger instance![1;11H[0m[2;18H[2;69H(B[0;7m day1.py                                                            [3;69H(B[0;1m[91m (B[0mday2_elecment_of_language.py[4;69H(B[0;1m[91m (B[0mday3.py[5;69H(B[0;1m[91m (B[0mday4_cirle.py[6;69H(B[0;1m[91m (B[0mday5_practice.py[2;18H[0m[1;47H(B[0;1mchaci[K[2;18H[91m [94m100days[40X[2;66H5 [39;49m[0m ...[0m[K[3;18H(B[0;1;7m[94m chaci                                          7 [39;49m[0m[K
+ [K
+[K
+[K[35d[36mdrwxr-xr-x[39;49m 4 harden harden 7 2020-04-30 09:03[35;107H3.92K sum, 138G free  2/7  All[1@l[2;18H[0m
+[2;69H(B[0;7m action.py                                                          [3;69H(B[0;1m[91m (B[0mchaci.json[4;69H(B[0;1m[91m (B[0mreview.py[5;69H(B[0;1m[91m (B[0msettings.py[6;69H(B[0;1m[91m (B[0mword.py[3;18H[0m[1;47H(B[0;1mpractice[2;69H(B[0m...[0m[K[3;18H(B[0;1m[91m [94mchaci[42X[3;66H7 [39;49m[0m[K[4;18H(B[0;1;7m[94m practice                                      30 [39;49m[0m[K
+ [K
+[K[35;12H2[35;28H30 2020-09-12 18:16[129G3[3;18H[0m
+[2;69H(B[0;7m ascii.py                                                           [3;69H(B[0;1m[91m (B[0mchage_picture.py[4;69H(B[0;1m[91m (B[0mclass.py[5;69H(B[0;1m[91m (B[0mdo.py
+[69G(B[0;1m[91m (B[0mdoor.py[7;69H(B[0;1m[91m (B[0menglish.py[8;69H(B[0;1m[91m (B[0mfifth.py[9;69H(B[0;1m[91m (B[0mfile and mistake.py[10;69H(B[0;1m[91m (B[0mfirst.py[11;69H(B[0;1m[91m (B[0mforth.py[12;69H(B[0;1m[91m (B[0mgrass.py[13;69H(B[0;1m[91m (B[0mguess.py[14;69H(B[0;1m[91m (B[0mhello.py[15;69H(B[0;1m[91m (B[0mjson.py[16;69H(B[0;1m[91m (B[0mlearn_snake.py[17;69H(B[0;1m[91m (B[0mname_function.py[18;69H(B[0;1m[91m (B[0mnumbers.json[19;69H(B[0;1m[91m (B[0mpi_digits.txt[20;69H(B[0;1m[91m (B[0mpizza_module.py[21;69H(B[0;1m[91m (B[0mpractice.py[22;69H(B[0;1m[91m (B[0mprofile.py[23;69H(B[0;1m[91m (B[0mprogramming.txt[24;69H(B[0;1m[91m (B[0mscrapy_list.py[25;69H(B[0;1m[91m (B[0msecond.py[26;69H(B[0;1m[91m (B[0msix.py[27;69H(B[0;1m[91m [92mtelphonereadwrite.py[K[28;69H[91m (B[0mtest.py[29;69H(B[0;1m[91m (B[0mthird.py[30;69H(B[0;1m[91m (B[0mu2.txt[31;69H(B[0;1m[91m (B[0muse_API.py[4;18H[0m[1;47H(B[0;1mscrapy[K[2;69H(B[0m...[0m[K
+[K[4;18H(B[0;1m[91m [94mpractice[38X[4;65H30 [39;49m[0m[K[5;18H(B[0;1;7m[94m scrapy                                         8 [39;49m[0m[K
+ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[35;28H8 2020-09-12 18:16 [129G4[4;18H[0m
+[2;69H(B[0;7m download_picture.py                                                [3;69H(B[0;1m[91m (B[0mdownload_stream.py[4;69H(B[0;1m[91m (B[0mmeinv.py[5;69H(B[0;1m[91m (B[0mrequest_learn.py[6;69H(B[0;1m[91m (B[0mscrapy.md[7;69H(B[0;1m[91m (B[0mtaobao.py[8;69H(B[0;1m[91m (B[0muniversityRaw.py[9;69H(B[0;1m[91m (B[0mwork_imformation.xls[5;18H[0m[1;47H(B[0;1mfind.py[2;69H[0m[K
+[K
+[K[5;18H(B[0;1m[91m [94mscrapy[41X[5;66H8 [39;49m[0m[K[6;18H(B[0;1;7m find.py                                   2.17 K [0m[K
+ [K
+[K
+[K[35d[36m-rw-r--r--[39;49m 1[35;28H2.17K 2020-09-12 18:16[129G5[5;18H[0m
+[1;135H(B[0;1m|[6;18H[0m[1;135H(B[0;1m/[6;18H[0m[1;135H(B[0;1m-[6;18H[0m[1;135H(B[0;1m\[6;18H[0m[1;135H(B[0;1m|[6;18H[0m[1;135H(B[0;1m/[6;18H[0m[1;47H(B[0;1mREADME.md[135G-[6;18H[91m (B[0mfind.py[35X[6;61H2.17 K [7;18H(B[0;1;7m README.md                                   64 B [35;28H(B[0m64B 2020-09-12 19:02  [129G6[6;18H[0m
+[1;135H(B[0;1m\[7;18H[0m[1;135H(B[0;1m|[7;18H[0m[1;135H(B[0;1m/[7;18H[0m[1;135H(B[0;1m-[7;18H[0m[1;135H(B[0;1m\[7;18H[0m[1;47H(B[0;1mtypescript[135G|[7;18H[91m (B[0mREADME.md[35X[7;63H64 B [8;18H(B[0;1;7m typescript                                   4 K [35;28H(B[0m4K 2020-09-14 21:35 [129G7[7;18H[0m
+[1;135H(B[0;1m/[8;18H[0m[1;135H(B[0;1m-[8;18H[0m[1;135H(B[0;1m\[8;18H[0m[1;135H(B[0;1m|[8;18H[0m[1;135H(B[0;1m/[8;18H[0m[1;135H(B[0;1m-[2;69H(B[0mScript started on 2020-09-14 21:35:09+08:00 [TERM="st-256color" TTY=[3;69H(B[0;7m%
+
+
+(B[0;1m[32mâžœ  [36mpython-practice(B[0m (B[0;1m[34mgit:([31mmaster[34m) [33mâœ—[9;69H(B[0mloading...[10;69H(B[0;1m[32mharden@ww [34m/home/harden/python/python-practice/[39;49m100days[11;69H(B[0m[91m [94mInfoSpider     [39;49m ^[(B(B[0;1;7m[94m 100days                                       [12;69H(B[0;1m[91m [94mmanim          (B[0m ^[(B(B[0;1m[91m [94mchaci7 [13;69H(B[0m[91m [94mpylearn        [39;49m ^[(B(B[0;1m[91m [94mpractice30 [14;69H(B[0m[91m [94mpython-jvm-int~[39;49m ^[(B(B[0;1m[91m [94mscrapy8 [15;69H(B[0;1;7m[94m python-practice(B[0m ^[(B(B[0;1m[91m ^[(B(B[0mfind.py2.17 K[16;69H(B[0;1m[91m [94mWord           (B[0m ^[(B(B[0;1m[91m ^[(B(B[0mREADME.md64 B[17;69H(B[0;1m[91m ^[(B(B[0mnihe.py(B[0;1m[91m ^[(B(B[0mtypescript0[18;69HWarning: You're in a nested ranger instance!(B[0;7m day1.py             [22;69H(B[0m[36mdrwxr-xr-x[39;49m 4 harden harden 7 2020-04-30 09:033.92K sum, 138G free  2[23;69H(B[0;7m action.py                                                       [25;69H(B[0m230 2020-09-12 18:163[26;69H(B[0;7m ascii.py                                                        [27;69H(B[0;1m[91m ^[(B(B[0mdoor.py(B[0;1m[91m ^[(B(B[0menglish.py(B[0;1m[91m ^[(B(B[0mfifth.py(B[0;1m[91m ^[(B(B[0mfile and mistak[28;69H(B[0;1m[91m [94mpractice30 (B[0;1;7m[94m scrapy                                        [8;18H[39;49m[0m[1;135H(B[0;1m\[8;18H[0m[1;135H(B[0;1m|[8;18H[0m[1;135H(B[0;1m/[8;18H[0m[1;135H(B[0;1m-[8;18H[0m[1;135H(B[0;1m\[8;18H[0m[1;135H(B[0;1m [8;18H[0m[1;47H(B[0;1mREADME.md[K[2;69H[38;5;18m#(B[0m python-practice[0m[K[3;69Hon the road of the python[4;69H我的python 练习[6;69H[0m[K[7;18H(B[0;1;7m README.md                                   64 B [8;18H(B[0;1m[91m (B[0mtypescript[35X[8;64H4 K 
+[0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+
+
+
+[K
+[K
+
+[K
+[K
+[K
+[K[35;28H64B 2020-09-12 19:02[129G6[8;18H[0m[A[1;47H(B[0;1mfind.py[K[2;69H(B[0m[38;5;19mimport[39;49m (B[0;4m[38;5;37mxlrd[39;49m[0m[K[3;69H[38;5;19mimport[39;49m (B[0;4m[38;5;37mos(B[0m [0m[K[4;69H[K[6;18H(B[0;1;7m find.py                                   2.17 K [0m [38;5;19mclass[39;49m (B[0;4m[38;5;34mReadSheet(B[0m() :[7;18H(B[0;1m[91m (B[0mREADME.md[35X[7;63H64 B 
+[73G[38;5;19mdef[39;49m [38;5;34m__init__[39;49m([38;5;37mself[39;49m) :[9;77H[38;5;19mpass[11;73Hdef[39;49m [38;5;34mReaddir[39;49m([38;5;37mself[39;49m, [38;5;37mdir[39;49m):[12;77H[38;5;19mreturn[39;49m os.listdir([38;5;37mdir[39;49m)[14;73H[38;5;19mdef[39;49m [38;5;34m__ReadSheet[39;49m([38;5;37mself[39;49m, pos):[15;77H[38;5;19mtry[39;49m:
+[38;5;19mreturn[39;49m xlrd.open_workbook(pos)[17;77H[38;5;19mexcept[39;49m:
+[38;5;19mpass[20;73Hdef[39;49m [38;5;34m__ReadTable[39;49m ([38;5;37mself[39;49m, data, num) :[21;77H[38;5;19mtry[39;49m:
+[38;5;19mreturn[39;49m  data.sheets()[num][23;77H[38;5;19mexcept[39;49m:
+[38;5;19mpass[26;73Hdef[39;49m [38;5;34mgetTable[39;49m ([38;5;37mself[39;49m, file_name, numsheet):[27;78Hdata = [38;5;37mself[39;49m.__ReadSheet(file_name)[28;78Htable = [38;5;37mself[39;49m.__ReadTable(data, numsheet)[29;78H[38;5;19mreturn[39;49m table[31;69H[38;5;19mclass[39;49m (B[0;4m[38;5;34mHandleSheet(B[0m() :[33;73H[38;5;19mdef[39;49m [38;5;34m__init__[39;49m([38;5;37mself[39;49m,) :[34;77H[38;5;19mpass[35;28H[39;49m2.17K 2020-09-12 18:16[129G5[7;18H[0m[A[1;47H(B[0;1mscrapy[K[2;69H(B[0;7m download_picture.py                                                [3;69H(B[0;1m[91m (B[0mdownload_stream.py[4;69H(B[0;1m[91m (B[0mmeinv.py[5;18H(B[0;1;7m[94m scrapy                                         8 [39;49m[0m (B[0;1m[91m (B[0mrequest_learn.py[6;18H(B[0;1m[91m (B[0mfind.py[35X[6;61H2.17 K [0m (B[0;1m[91m (B[0mscrapy.md[K[7;69H(B[0;1m[91m (B[0mtaobao.py[8;69H(B[0;1m[91m (B[0muniversityRaw.py[K[9;69H(B[0;1m[91m (B[0mwork_imformation.xls
+
+[0m[K
+[K
+
+[K
+[K
+[K
+[K
+[K
+
+[K
+[K
+[K
+[K
+[K
+
+[K
+[K
+[K
+[K
+
+[K
+
+[K
+[K
+[36mdrwxr-xr-x[39;49m 2[35;28H8 2020-09-12 18:16    [129G4[6;18H[0m[A[?1l>[?12l[?25h[?1000l[35;1H[?1049l[?1l>[1m[7m%[27m[1m[0m                                                                                                                                        ]0;..thon-practice[0m[27m[24m[J[01;32m➜  [36mpython-practice[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hmmkdir script[?1l>[?2004l
+]0;mkdir[1m[7m%[27m[1m[0m                                                                                                                                        ]0;..thon-practice[0m[27m[24m[J[01;32m➜  [36mpython-practice[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hrra[?1l>[?2004l
+]0;ra)0[?1049h[1;35r[0m[4l[?1h=[?25l[39;49m[?1000h[39;49m[0m[H[2J
+[J[Aloading...[Kkranger\[?1h=[?1000hkranger\(B[0;1m[32mharden@ww [34m/home/harden/python/python-practice/[39;49m100days[K
+[91m [94mInfoSpider     [39;49m[0m (B[0;1;7m[94m 100days                                        5 [39;49m[0m ...
+(B[0;1m[91m [94mmanim          [39;49m[0m (B[0;1m[91m [94mchaci[42X[3;66H7 
+[91m [94mpylearn        [39;49m[0m (B[0;1m[91m [94mpractice[38X[4;65H30 
+[91m [94mpython-jvm-int~[39;49m[0m (B[0;1m[91m [94mscrapy[41X[5;66H8 
+(B[0;1;7m[94m python-practice[39;49m[0m (B[0;1m[91m [94mscript[41X[6;66H0 
+[91m [94mWord           [39;49m[0m (B[0;1m[91m (B[0mfind.py[7;61H2.17 K
+(B[0;1m[91m (B[0mnihe.py[8;18H(B[0;1m[91m (B[0mREADME.md[8;63H64 B[9;18H(B[0;1m[91m (B[0mtypescript[9;64H8 K[35dWarning: You're in a nested ranger instance![1;11H[0m[2;18H[2;69H(B[0;7m day1.py                                                            [3;69H(B[0;1m[91m (B[0mday2_elecment_of_language.py[4;69H(B[0;1m[91m (B[0mday3.py[5;69H(B[0;1m[91m (B[0mday4_cirle.py[6;69H(B[0;1m[91m (B[0mday5_practice.py[2;18H[0m[1;31H(B[0;1mpython-practice[K
+[C[94mAndroid   [18G[91m [94mInfoSpider[36X[2;65H12 [39;49m[0m (B[0;1;7m[94m 100days                                                            [3;2H(B[0;1m[94mAndroidStudioP~[39;49m[0m (B[0;1m[91m [94mmanim[3;65H24 [39;49m[0m (B[0;1m[91m [94mchaci[K
+[CDataStruct[4;20Hylearn [4;65H 5 [39;49m[0m (B[0;1m[91m [94mpractice[K
+[CDesktop        [39;49m[0m (B[0;1m[91m [94mpython-jvm-interpreter[5;65H10 [39;49m[0m (B[0;1m[91m [94mscrapy[K
+[91m [94mDocuments      [39;49m[0m (B[0;1;7m[94m python-practice                               10 [39;49m[0m (B[0;1m[91m [94mscript[K
+[CDownloads[7;19HWord[42X[7;65H19 [39;49m[0m (B[0;1m[91m (B[0mfind.py
+[C(B[0;1m[94mIdeaProjects   [39;49m[0m (B[0;1m[91m (B[0mnihe.py  [8;61H2.28 K [0m (B[0;1m[91m (B[0mREADME.md
+(B[0;1m[91m [94mLearn          [39;49m[0m            [9;64H     (B[0;1m[91m (B[0mtypescript
+(B[0;1m[91m [94mMusic          
+[91m [94mPictures       
+(B[0;1;7m[94m python         
+(B[0;1m[91m [94mRes            
+[91m [94mscripts        
+[91m [94mVideos         
+[91m (B[0mpackage-l~.json[35d[36mdrwxr-xr-x[39;49m 8 harden harden 10 2020-09-14 21:35[35;107H2.28K sum, 138G free  5/7  All[1@l[2;18H[0m
+
+
+
+[1;31H(B[0;1mWord[K[2;69H(B[0m...[0m[K
+[K
+[K
+[K[6;18H(B[0;1m[91m [94mpython-practice[31X[6;65H10 [39;49m[0m[K[7;18H(B[0;1;7m[94m Word                                          19 [39;49m[0m[K
+ [K
+[K[35;12H4[35;29H9[35;40H3 20:43[129G6[6;18H[0m
+[2;69H(B[0;7m 1.json                                                             [3;69H(B[0;1m[91m [92mbackup.py[K[4;69H[91m [92mCET4luan_1.json[K[5;69H[91m [92mCET4luan_2.json[K[6;69H[91m [92mGRE_2.json[K[7;69H[91m (B[0minsert_mysql.py[8;69H(B[0;1m[91m [92mKaoYanluan_1.json[K[9;69H[91m [92mLevel4luan_1.json[K[10;69H[91m [92mmain.py[K[11;69H[91m [92mparse_json.py[K[12;69H[91m [92mphrase.xlsx[K[13;69H[91m [92msetting.py[K[14;69H[91m [92mweb_action.py[K[15;69H[91m [92mword.py[K[16;69H[91m [92mword.xlsx[K[17;69H[91m [92mword_Excel.py[K[18;69H[91m [92mwords.xlsx[K[7;18H[39;49m[0m[1;31H(B[0;1mnihe.py[2;69H[0m[K
+[K
+[K
+[K
+[K[7;18H(B[0;1m[91m [94mWord[42X[7;65H19 [39;49m[0m[K[8;18H(B[0;1;7m nihe.py                                   2.28 K [0m[K
+ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[35d[36m-rw-r--r--[39;49m 1[35;28H2.28K 2020-09-14 21:34[129G7[7;18H[0m
+[1;135H(B[0;1m-[8;18H[0m[1;135H(B[0;1m\[8;18H[0m[1;135H(B[0;1m|[8;18H[0m[1;135H(B[0;1m/[8;18H[0m[1;135H(B[0;1m-[8;18H[0m[1;135H(B[0;1m\[8;18H[0m[1;135H(B[0;1m [2;69H(B[0m[38;5;19mimport[39;49m (B[0;4m[38;5;37mnumpy(B[0m [38;5;19mas[39;49m (B[0;4m[38;5;37mnp[3;69H(B[0m[38;5;19mimport[39;49m (B[0;4m[38;5;37mmatplotlib.pyplot(B[0m [38;5;19mas[39;49m (B[0;4m[38;5;37mplt[5;69H(B[0mx = [[38;5;30m100[39;49m,[38;5;30m200[39;49m,[38;5;30m300[39;49m,[38;5;30m400[39;49m,[38;5;30m500[39;49m,[38;5;30m600[39;49m,[38;5;30m700[39;49m,[38;5;30m800[39;49m,[38;5;30m900[39;49m,[38;5;30m1000[39;49m,[38;5;30m1100[39;49m,[38;5;30m1200[39;49m,[38;5;30m1300[39;49m,[38;5;30m1400[39;49m,[38;5;30m15[6;69H[39;49mx = np.array(x)[7;69Hnums = [[38;5;30m0.082755[39;49m,[38;5;30m0.15695299999999998[39;49m,[38;5;30m0.23962699999999998[39;49m,[38;5;30m2.059603999[8;69H[39;49my = np.array(nums)[10;69H[38;5;248m#用3次多项式拟合[11;69H[39;49mf1 = np.polyfit(x, y, [38;5;30m3[39;49m)[14;69Hp1 = np.poly1d(f1)[16;69H[38;5;248m#也可使用yvals=np.polyval(f1, x)[17;69H[39;49myvals = p1(x)  [38;5;248m#拟合y值[18;69H#绘图
+[69G[39;49mplot1 = plt.plot(x, y, [38;5;130m's'[39;49m,label=[38;5;130m'original values'[39;49m)[20;69Hplot2 = plt.plot(x, yvals, [38;5;130m'r'[39;49m,label=[38;5;130m'polyfit values'[39;49m)[22;69H[38;5;248m#x轴的标签  [23;69H[39;49mplt.xlabel([38;5;130m'Money'[39;49m)[25;69H[38;5;248m#x轴的标签  [26;69H[39;49mplt.ylabel([38;5;130m'Time'[39;49m)[27;69Hplt.legend(loc=[38;5;30m4[39;49m) [38;5;248m#指定legend的位置右下角[28;69H#图标题  [29;69H[39;49mplt.title([38;5;130m'Hens And Cock'[39;49m)[30;69Hplt.show()[8;18H[0m[1;135H(B[0;1md[21d(B[0;4mkey          command                                                                                                                    [22;2H(B[0mD[22;14Hconsole delete[K
+ T[23;14Hconsole trash[K
+ d[24;14Hcut
+ a[25;14Hcut mode=add[K
+ r[26;14Hcut mode=remove[K
+ t[27;14Hcut mode=toggle[K
+ j[28;14Heval fm.cut(dirarg=dict(down=1), narg=quantifier)[K
+ G[29;14Heval fm.cut(dirarg=dict(to=-1), narg=quantifier)[K
+ gg[30;14Heval fm.cut(dirarg=dict(to=0), narg=quantifier)[K
+ k[31;14Heval fm.cut(dirarg=dict(up=1), narg=quantifier)
+ c[32;14Hget_cumulative_size
+ u[33;14Hshell -p du --max-depth=1 -h --apparent-size
+ U[34;14Hshell -p du --max-depth=1 -h --apparent-size | sort -rh[8;18H[0m[1;135H(B[0;1m [21d[0m[K[22;68H[1K [38;5;248m#x轴的标签  [23;68H[39;49m[0m[1K plt.xlabel([38;5;130m'Money'[39;49m)
+[0m[K[25;68H[1K [38;5;248m#x轴的标签  [26;68H[39;49m[0m[1K plt.ylabel([38;5;130m'Time'[39;49m)[27;68H[0m[1K plt.legend(loc=[38;5;30m4[39;49m) [38;5;248m#指定legend的位置右下角[28;68H[39;49m[0m[1K [38;5;248m#图标题  [29;68H[39;49m[0m[1K plt.title([38;5;130m'Hens And Cock'[39;49m)[30;68H[0m[1K plt.show()
+[0m[K
+[K
+[K
+[K[8;18H[1;31H(B[0;1mWord[K[2;69H(B[0;7m 1.json                                                             [3;69H(B[0;1m[91m [92mbackup.py[K[4;69H[91m [92mCET4luan_1.json[K[5;69H[91m [92mCET4luan_2.json[K[6;69H[91m [92mGRE_2.json[K[7;18H(B[0;1;7m[94m Word                                          19 [39;49m[0m (B[0;1m[91m (B[0minsert_mysql.py[K[8;18H(B[0;1m[90m nihe.py[35X[8;61H2.28 K [39;49m[0m (B[0;1m[91m [92mKaoYanluan_1.json[K[9;69H[91m [92mLevel4luan_1.json[K[10;69H[91m [92mmain.py[K[11;69H[91m [92mparse_json.py[K[12;69H[91m [92mphrase.xlsx[K[13;69H[91m [92msetting.py[K[14;69H[91m [92mweb_action.py[K[15;69H[91m [92mword.py[K[16;69H[91m [92mword.xlsx[K[17;69H[91m [92mword_Excel.py[K[18;69H[91m [92mwords.xlsx[K
+[39;49m[0m[K
+[K
+
+[K
+[K
+
+[K
+[K
+[K
+[K
+[K
+[K[35d[36mdrwxr-xr-x[39;49m 4[35;28H19 2020-09-13 20:43   [129G6[8;18H[0m[A[1;31H(B[0;1mpython-practice[2;69H(B[0;1;7m[94m 100days                                                            [3;70H(B[0;1m[94mchaci[K
+[70Gpractice[K[5;70Hscrapy[K[6;18H(B[0;1;7m[94m python-practice                               10 [39;49m[0m (B[0;1m[91m [94mscript[K[7;18H[91m [94mWord[42X[7;65H19 [39;49m[0m (B[0;1m[91m (B[0mfind.py[K[8;70HREADME.md[K[9;70Htypescript[K[10;69H[0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[35;12H8[35;29H0[35;40H4 21:35[129G5[7;18H[0m[A[1;31H(B[0;1m[34mpython-practice/[39;49m100days
+[C[94mInfoSpider[18G(B[0;1;7m[94m 100days                                        5 [39;49m[0m (B[0;7m day1.py                                                            [3;2H(B[0;1m[94mmanim          [39;49m[0m (B[0;1m[91m [94mchaci[3;65H 7 [39;49m[0m (B[0;1m[91m (B[0mday2_elecment_of_language.py[K
+[C(B[0;1m[94mpylearn   [4;20Hractice[4;65H30 [39;49m[0m (B[0;1m[91m (B[0mday3.py[K
+[C(B[0;1m[94mpython-jvm-int~[39;49m[0m (B[0;1m[91m [94mscrapy[16X[5;65H 8 [39;49m[0m (B[0;1m[91m (B[0mday4_cirle.py[K
+(B[0;1;7m[94m python-practice[39;49m[0m (B[0;1m[91m [94mscript[41X[6;66H0 [39;49m[0m (B[0;1m[91m (B[0mday5_practice.py[K
+[C(B[0;1m[94mWord     [7;19H(B[0mfind.py[35X[7;61H2.17 K [0m[K
+(B[0;1m[90m nihe.py        [39;49m[0m (B[0;1m[91m (B[0mREADME.md[35X[8;63H64 B [0m[K[9;17H[1K (B[0;1m[91m (B[0mtypescript[9;64H8 K [0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[35;12H2[35;28H5 2020-09-12 18:16 [35;107H11.9[129G1/8[6;18H[0m[2d[1;47H(B[0;1mchaci[K[2;18H[91m [94m100days[40X[2;66H5 [39;49m[0m ...[0m[K[3;18H(B[0;1;7m[94m chaci                                          7 [39;49m[0m[K
+ [K
+[K
+[K[35;12H4[35;28H7[36G4-30 09:03[129G2[2;18H[0m
+[2;69H(B[0;7m action.py                                                          [3;69H(B[0;1m[91m (B[0mchaci.json[4;69H(B[0;1m[91m (B[0mreview.py[5;69H(B[0;1m[91m (B[0msettings.py[6;69H(B[0;1m[91m (B[0mword.py[3;18H[0m[1;47H(B[0;1mpractice[2;69H(B[0m...[0m[K[3;18H(B[0;1m[91m [94mchaci[42X[3;66H7 [39;49m[0m[K[4;18H(B[0;1;7m[94m practice                                      30 [39;49m[0m[K
+ [K
+[K[35;12H2[35;28H30 2020-09-12 18:16[129G3[3;18H[0m
+[2;69H(B[0;7m ascii.py                                                           [3;69H(B[0;1m[91m (B[0mchage_picture.py[4;69H(B[0;1m[91m (B[0mclass.py[5;69H(B[0;1m[91m (B[0mdo.py
+[69G(B[0;1m[91m (B[0mdoor.py[7;69H(B[0;1m[91m (B[0menglish.py[8;69H(B[0;1m[91m (B[0mfifth.py[9;69H(B[0;1m[91m (B[0mfile and mistake.py[10;69H(B[0;1m[91m (B[0mfirst.py[11;69H(B[0;1m[91m (B[0mforth.py[12;69H(B[0;1m[91m (B[0mgrass.py[13;69H(B[0;1m[91m (B[0mguess.py[14;69H(B[0;1m[91m (B[0mhello.py[15;69H(B[0;1m[91m (B[0mjson.py[16;69H(B[0;1m[91m (B[0mlearn_snake.py[17;69H(B[0;1m[91m (B[0mname_function.py[18;69H(B[0;1m[91m (B[0mnumbers.json[19;69H(B[0;1m[91m (B[0mpi_digits.txt[20;69H(B[0;1m[91m (B[0mpizza_module.py[21;69H(B[0;1m[91m (B[0mpractice.py[22;69H(B[0;1m[91m (B[0mprofile.py[23;69H(B[0;1m[91m (B[0mprogramming.txt[24;69H(B[0;1m[91m (B[0mscrapy_list.py[25;69H(B[0;1m[91m (B[0msecond.py[26;69H(B[0;1m[91m (B[0msix.py[27;69H(B[0;1m[91m [92mtelphonereadwrite.py[K[28;69H[91m (B[0mtest.py[29;69H(B[0;1m[91m (B[0mthird.py[30;69H(B[0;1m[91m (B[0mu2.txt[31;69H(B[0;1m[91m (B[0muse_API.py[4;18H[0m[1;47H(B[0;1mscrapy[K[2;69H(B[0m...[0m[K
+[K[4;18H(B[0;1m[91m [94mpractice[38X[4;65H30 [39;49m[0m[K[5;18H(B[0;1;7m[94m scrapy                                         8 [39;49m[0m[K
+ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[35;28H8 2020-09-12 18:16 [129G4[4;18H[0m
+[2;69H(B[0;7m download_picture.py                                                [3;69H(B[0;1m[91m (B[0mdownload_stream.py[4;69H(B[0;1m[91m (B[0mmeinv.py[5;69H(B[0;1m[91m (B[0mrequest_learn.py[6;69H(B[0;1m[91m (B[0mscrapy.md[7;69H(B[0;1m[91m (B[0mtaobao.py[8;69H(B[0;1m[91m (B[0muniversityRaw.py[9;69H(B[0;1m[91m (B[0mwork_imformation.xls[5;18H[0m[1;50H(B[0;1mipt[2;69H(B[0m...[0m[K
+[K
+[K[5;18H(B[0;1m[91m [94mscrapy[41X[5;66H8 [39;49m[0m[K[6;18H(B[0;1;7m[94m script                                         0 [39;49m[0m[K
+ [K
+[K
+[K[35;28H0[35;39H4 21:35[129G5[5;18H[0m
+[2;69H[41mempty[6;18H[39;49m[0m[1;47H(B[0;1m[34mscript/
+[C[94m100days       [39;49m[0m[51P
+[C(B[0;1m[94mchaci[3;16H [39;49m[0m[K
+[3G(B[0;1m[94mractice[16G [39;49m[0m[K
+[C(B[0;1m[94mscrapy         [39;49m[0m[K
+[C(B[0;1;7m[94mscript         [39;49m[0m[K
+[Cfind.py        [0m[K
+(B[0;1m[91m (B[0mREADME.md      [0m[K
+(B[0;1m[91m (B[0mtypescript[17G[0m[K[35;110H[1K 0[129G0/0[6;18H[0m[2d[1;135H(B[0;1mp[24d(B[0;4mkey          command                                                                                                                    [25;2H(B[0mh[25;14H...
+ d[26;14Hconsole paste dest=
+ p[27;14Hpaste
+ P[28;14Hpaste append=True
+ '<any>[14Gpaste dest=%any_path
+ `<any>[14Gpaste dest=%any_path
+ o[31;14Hpaste overwrite=True
+ O[32;14Hpaste overwrite=True append=True
+ l[33;14Hpaste_symlink relative=False
+ L[34;14Hpaste_symlink relative=True[2;18H[0m[1;135H(B[0;1m/[24d[0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[2;18H[1;54H(B[0;1mnihe.py[K[2;18H(B[0;1;7m nihe.py                                                                                         2.28 K [35d(B[0m[36m-rw-r--r--[39;49m 1 harden harden 2.28K 2020-09-14 21:34[35;107H2.28K[129G1/1[2;18H[0m[1;135H(B[0;1m\[2;18H[0m[1;135H(B[0;1
